@@ -14,10 +14,18 @@ public class Hospede extends Pessoa {
 
     @Override
     public void exibirDados() {
-        System.out.println("Hóspede: " + getNome() + " | CPF: " + getCpf() + " | Email: " + email);
+        System.out.println("Hóspede: " + getNome() + " | CPF: " + getCpf() + " | Telefone: " + getTelefone() + " | Email: " + email);
     }
 
-    public String getEmail() { return email; }
-    public String getEndereco() { return endereco; }
-    public String getDataNascimento() { return dataNascimento; }
+    public String getEmail() {
+        return email;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public String getDataNascimento() {
+        return dataNascimento;
+    }
 }

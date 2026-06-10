@@ -1,4 +1,5 @@
 package interfaces;
 
-public class Pagavel {
+public interface Pagavel {
+    void registrarPagamento();
 }

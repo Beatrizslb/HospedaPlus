@@ -1,4 +1,6 @@
 package interfaces;
 
-public class Reservavel {
+public interface Reservavel {
+    void confirmarReserva();
+    void cancelarReserva();
 }

@@ -1,4 +1,7 @@
 package exception;
 
-public class QuartoIndisponivelException {
+public class QuartoIndisponivelException extends Exception {
+    public QuartoIndisponivelException(String mensagem) {
+        super(mensagem);
+    }
 }
